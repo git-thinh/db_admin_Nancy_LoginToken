@@ -1,0 +1,6 @@
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\AutoMapper\bin\Debug\AutoMapper.xml
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\AutoMapper\bin\Debug\AutoMapper.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\AutoMapper\bin\Debug\AutoMapper.pdb
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\AutoMapper\obj\Debug\AutoMapper.csprojResolveAssemblyReference.cache
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\AutoMapper\obj\Debug\AutoMapper.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\AutoMapper\obj\Debug\AutoMapper.pdb

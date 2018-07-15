@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C023D61-9936-444F-B0F1-32813ACB47C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System.Linq.Dynamic</RootNamespace>
+    <AssemblyName>System.Linq.Dynamic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DictionaryList.cs" />
+    <Compile Include="Linq\LinqDynamicMultiSortingUtility.cs" />
+    <Compile Include="Linq\MoreLinq\Acquire.cs" />
+    <Compile Include="Linq\MoreLinq\Assert.cs" />
+    <Compile Include="Linq\MoreLinq\AssertCount.cs" />
+    <Compile Include="Linq\MoreLinq\Batch.cs" />
+    <Compile Include="Linq\MoreLinq\Cartesian.cs" />
+    <Compile Include="Linq\MoreLinq\Concat.cs" />
+    <Compile Include="Linq\MoreLinq\Consume.cs" />
+    <Compile Include="Linq\MoreLinq\DistinctBy.cs" />
+    <Compile Include="Linq\MoreLinq\EquiZip.cs" />
+    <Compile Include="Linq\MoreLinq\ExceptBy.cs" />
+    <Compile Include="Linq\MoreLinq\Exclude.cs" />
+    <Compile Include="Linq\MoreLinq\Fold.cs" />
+    <Compile Include="Linq\MoreLinq\Fold.g1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fold.g.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\MoreLinq\ForEach.cs" />
+    <Compile Include="Linq\MoreLinq\Generate.cs" />
+    <Compile Include="Linq\MoreLinq\GenerateByIndex.cs" />
+    <Compile Include="Linq\MoreLinq\GroupAdjacent.cs" />
+    <Compile Include="Linq\MoreLinq\Incremental.cs" />
+    <Compile Include="Linq\MoreLinq\Index.cs" />
+    <Compile Include="Linq\MoreLinq\Interleave.cs" />
+    <Compile Include="Linq\MoreLinq\Lag.cs" />
+    <Compile Include="Linq\MoreLinq\Lead.cs" />
+    <Compile Include="Linq\MoreLinq\MaxBy.cs" />
+    <Compile Include="Linq\MoreLinq\MinBy.cs" />
+    <Compile Include="Linq\MoreLinq\MoreEnumerable.cs" />
+    <Compile Include="Linq\MoreLinq\NestedLoops.cs" />
+    <Compile Include="Linq\MoreLinq\OrderBy.cs" />
+    <Compile Include="Linq\MoreLinq\OrderByDirection.cs" />
+    <Compile Include="Linq\MoreLinq\OrderedMerge.cs" />
+    <Compile Include="Linq\MoreLinq\Pad.cs" />
+    <Compile Include="Linq\MoreLinq\Pairwise.cs" />
+    <Compile Include="Linq\MoreLinq\Partition.cs" />
+    <Compile Include="Linq\MoreLinq\Permutations.cs" />
+    <Compile Include="Linq\MoreLinq\Pipe.cs" />
+    <Compile Include="Linq\MoreLinq\Prepend.cs" />
+    <Compile Include="Linq\MoreLinq\PreScan.cs" />
+    <Compile Include="Linq\MoreLinq\Random.cs" />
+    <Compile Include="Linq\MoreLinq\RandomSubset.cs" />
+    <Compile Include="Linq\MoreLinq\Rank.cs" />
+    <Compile Include="Linq\MoreLinq\Repeat.cs" />
+    <Compile Include="Linq\MoreLinq\RunLengthEncode.cs" />
+    <Compile Include="Linq\MoreLinq\Scan.cs" />
+    <Compile Include="Linq\MoreLinq\Segment.cs" />
+    <Compile Include="Linq\MoreLinq\SequenceException.cs" />
+    <Compile Include="Linq\MoreLinq\SingleOrFallback.cs" />
+    <Compile Include="Linq\MoreLinq\SkipUntil.cs" />
+    <Compile Include="Linq\MoreLinq\Slice.cs" />
+    <Compile Include="Linq\MoreLinq\SortedMerge.cs" />
+    <Compile Include="Linq\MoreLinq\Split.cs" />
+    <Compile Include="Linq\MoreLinq\Subsets.cs" />
+    <Compile Include="Linq\MoreLinq\TagFirstLast.cs" />
+    <Compile Include="Linq\MoreLinq\TakeEvery.cs" />
+    <Compile Include="Linq\MoreLinq\TakeLast.cs" />
+    <Compile Include="Linq\MoreLinq\TakeUntil.cs" />
+    <Compile Include="Linq\MoreLinq\ToDataTable.cs" />
+    <Compile Include="Linq\MoreLinq\ToDelimitedString.cs" />
+    <Compile Include="Linq\MoreLinq\ToDelimitedString.g1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ToDelimitedString.g.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\MoreLinq\ToHashSet.cs" />
+    <Compile Include="Linq\MoreLinq\Trace.cs" />
+    <Compile Include="Linq\MoreLinq\Windowed.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Linq\MoreLinq\Zip.stub.cs" />
+    <Compile Include="Linq\MoreLinq\ZipLongest.cs" />
+    <Compile Include="Linq\MoreLinq\ZipShortest.cs" />
+    <Compile Include="Linq\v2\BasicQueryable.cs" />
+    <Compile Include="Linq\v2\ClassFactory.cs" />
+    <Compile Include="Linq\v2\Collection\DictionaryListValues.cs" />
+    <Compile Include="Linq\v2\DynamicClass.cs" />
+    <Compile Include="Linq\v2\DynamicExpression.cs" />
+    <Compile Include="Linq\v2\DynamicLinqTypeProvider.cs" />
+    <Compile Include="Linq\v2\DynamicOrdering.cs" />
+    <Compile Include="Linq\v2\DynamicProperty.cs" />
+    <Compile Include="Linq\v2\DynamicQueryable.cs" />
+    <Compile Include="Linq\v2\ExpressionParser.cs" />
+    <Compile Include="Linq\v2\Extend\DistinctExtension.cs" />
+    <Compile Include="Linq\v2\Extend\ToListDynamic.cs" />
+    <Compile Include="Linq\v2\GlobalConfig.cs" />
+    <Compile Include="Linq\v2\GlobalSuppressions.cs" />
+    <Compile Include="Linq\v2\GroupResult.cs" />
+    <Compile Include="Linq\v2\IDynamicLinkTypeProvider.cs" />
+    <Compile Include="Linq\v2\ParseException.cs" />
+    <Compile Include="Linq\v2\Res.cs" />
+    <Compile Include="Mapper\Drapper.net\SqlMapper.cs" />
+    <Compile Include="Mapper\dynamic.cs" />
+    <Compile Include="Mapper\dynamicExtender.cs" />
+    <Compile Include="Mapper\dynamicJsonConverter.cs" />
+    <Compile Include="Mapper\dynamicTypeBuilder.cs" />
+    <Compile Include="Mapper\Slapper.AutoMapper.cs" />
+    <Compile Include="Mustache\ArgumentCollection.cs" />
+    <Compile Include="Mustache\CompoundGenerator.cs" />
+    <Compile Include="Mustache\ConditionTagDefinition.cs" />
+    <Compile Include="Mustache\ContentTagDefinition.cs" />
+    <Compile Include="Mustache\Context.cs" />
+    <Compile Include="Mustache\ContextParameter.cs" />
+    <Compile Include="Mustache\EachTagDefinition.cs" />
+    <Compile Include="Mustache\ElifTagDefinition.cs" />
+    <Compile Include="Mustache\ElseTagDefinition.cs" />
+    <Compile Include="Mustache\FormatCompiler.cs" />
+    <Compile Include="Mustache\Generator.cs" />
+    <Compile Include="Mustache\IArgument.cs" />
+    <Compile Include="Mustache\IfTagDefinition.cs" />
+    <Compile Include="Mustache\IGenerator.cs" />
+    <Compile Include="Mustache\IndexTagDefinition.cs" />
+    <Compile Include="Mustache\InlineGenerator.cs" />
+    <Compile Include="Mustache\InlineTagDefinition.cs" />
+    <Compile Include="Mustache\KeyFoundEventArgs.cs" />
+    <Compile Include="Mustache\KeyGenerator.cs" />
+    <Compile Include="Mustache\KeyNotFoundEventArgs.cs" />
+    <Compile Include="Mustache\MasterTagDefinition.cs" />
+    <Compile Include="Mustache\NestedContext.cs" />
+    <Compile Include="Mustache\NewlineTagDefinition.cs" />
+    <Compile Include="Mustache\NumberArgument.cs" />
+    <Compile Include="Mustache\PlaceholderArgument.cs" />
+    <Compile Include="Mustache\PlaceholderFoundEventArgs.cs" />
+    <Compile Include="Mustache\PropertyDictionary.cs" />
+    <Compile Include="Mustache\RegexHelper.cs" />
+    <Compile Include="Mustache\Scope.cs" />
+    <Compile Include="Mustache\SetTagDefinition.cs" />
+    <Compile Include="Mustache\StaticGenerator.cs" />
+    <Compile Include="Mustache\StringArgument.cs" />
+    <Compile Include="Mustache\TagDefinition.cs" />
+    <Compile Include="Mustache\TagParameter.cs" />
+    <Compile Include="Mustache\UpcastDictionary.cs" />
+    <Compile Include="Mustache\ValueRequestEventArgs.cs" />
+    <Compile Include="Mustache\VariableArgument.cs" />
+    <Compile Include="Mustache\VariableFoundEventArgs.cs" />
+    <Compile Include="Mustache\WithTagDefinition.cs" />
+    <Compile Include="Mustache\_config.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Linq\MoreLinq\Fold.g.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Fold.g1.cs</LastGenOutput>
+    </None>
+    <None Include="Linq\MoreLinq\ToDelimitedString.g.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ToDelimitedString.g1.cs</LastGenOutput>
+    </None>
+    <None Include="Linq\v2\README.md" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Linq\MoreLinq\_Node.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

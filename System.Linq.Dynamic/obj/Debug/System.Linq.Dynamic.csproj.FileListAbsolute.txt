@@ -1,0 +1,7 @@
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\System.Linq.Dynamic\bin\Debug\System.Linq.Dynamic.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\System.Linq.Dynamic\bin\Debug\System.Linq.Dynamic.pdb
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\System.Linq.Dynamic\bin\Debug\Newtonsoft.Json.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\System.Linq.Dynamic\bin\Debug\Newtonsoft.Json.xml
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\System.Linq.Dynamic\obj\Debug\System.Linq.Dynamic.csprojResolveAssemblyReference.cache
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\System.Linq.Dynamic\obj\Debug\System.Linq.Dynamic.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\System.Linq.Dynamic\obj\Debug\System.Linq.Dynamic.pdb

@@ -1,0 +1,4 @@
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\mmf\bin\Debug\mmf.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\mmf\bin\Debug\mmf.pdb
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\mmf\obj\Debug\mmf.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\mmf\obj\Debug\mmf.pdb

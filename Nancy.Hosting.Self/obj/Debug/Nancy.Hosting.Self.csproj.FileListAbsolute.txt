@@ -1,0 +1,9 @@
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\bin\Debug\Nancy.Hosting.Self.XML
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\bin\Debug\Nancy.Hosting.Self.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\bin\Debug\Nancy.Hosting.Self.pdb
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\bin\Debug\Nancy.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\bin\Debug\Nancy.pdb
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\bin\Debug\Nancy.xml
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\obj\Debug\Nancy.Hosting.Self.csprojResolveAssemblyReference.cache
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\obj\Debug\Nancy.Hosting.Self.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\Nancy.Hosting.Self\obj\Debug\Nancy.Hosting.Self.pdb

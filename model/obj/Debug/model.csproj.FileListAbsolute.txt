@@ -1,0 +1,7 @@
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\model\bin\Debug\model.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\model\bin\Debug\model.pdb
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\model\bin\Debug\Newtonsoft.Json.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\model\bin\Debug\Newtonsoft.Json.xml
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\model\obj\Debug\model.dll
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\model\obj\Debug\model.pdb
+F:\MrThinh\tfs_2013\File_DB\db_admin_v003\db_admin\model\obj\Debug\model.csprojResolveAssemblyReference.cache
